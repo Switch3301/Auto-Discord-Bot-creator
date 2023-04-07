@@ -4,7 +4,7 @@ from json import dumps
 import os,base64,random,json
 locale = 'pl-PL'
 ua = 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36'
-Session =  Session(client_identifier="chrome_107")
+Session =  Session(client_identifier="chrome110")
 
 def get_random_avatar():
     folder_path = 'avatars'
